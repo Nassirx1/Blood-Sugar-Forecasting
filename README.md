@@ -11,11 +11,16 @@ Sensor data from the pump.
 Insulin dosage data.
 These files were merged based on timestamps.
 
-##Data Preprocessing
+## Data Preprocessing
 A 5-minute interval exists between each glucose reading.
 All records where the sensor was inactive or where the time interval between readings exceeded 5 minutes were removed.
 Columns that were irrelevant to the analysis were dropped.
-Data analysis was performed using ACF, PACF, and correlation studies. Supporting visuals are provided below.
+Daoost results.png
+description of data.JPG
+diabetes ACF.png
+diabetes correlation.png
+Blood-Sugar-Forecasting
+ta analysis was performed using ACF, PACF, and correlation studies. Supporting visuals are provided below.
 Modeling:
 XGBoost and LSTM models were developed to predict glucose levels one hour ahead.
 Results suggest that LSTM outperformed XGBoost in generalization for this particular case.
