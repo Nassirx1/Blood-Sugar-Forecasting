@@ -1,10 +1,10 @@
 # Blood-Sugar-Forecasting
 This project involves predicting blood glucose levels one hour into the future using LSTM and XGBoost models.
 
-##Note
+#Note#
 The dataset used in this project is not included to maintain confidentiality. The data was collected from my personal 780G insulin pump.
 
-##Important Notes
+##Important Notes#
 This experiment is for personal training purposes only and does not provide medical advice.
 The used files include:
 Sensor data from the pump.
